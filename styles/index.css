@@ -1,5 +1,6 @@
 @import './base/base.css';
 
+@import './components/banner.css';
 @import './components/header.css';
 @import './components/logo.css';
 @import './components/nav-list.css';

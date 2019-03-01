@@ -1,0 +1,25 @@
+.banner {
+    height: 31rem;
+    padding-top: 1rem;
+    overflow: hidden;
+    background-image: url('../../images/glasses-bg.png');
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+}
+
+.banner .banner-card {
+    position: relative;
+    top: 10rem;
+    right: -12rem;
+    max-width: fit-content;
+    padding: 2.5rem 5rem;
+    background-color: white;
+}
+
+.banner .banner-card .banner-card-text {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.2rem;
+    text-transform: uppercase;
+}
