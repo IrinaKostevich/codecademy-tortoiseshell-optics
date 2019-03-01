@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: cadetblue;
+    color: white;
+}
+
+.header .header-info {
+    display: flex;
+    align-items: center;
+}
