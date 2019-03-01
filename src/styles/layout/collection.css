@@ -1,0 +1,11 @@
+.l-collection {
+    display: flex;
+}
+
+.l-collection.l-collection--btw {
+    justify-content: space-between;
+}
+
+.l-collection.l-collection--clm {
+    flex-direction: column;
+}
