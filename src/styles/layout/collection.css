@@ -1,7 +1,4 @@
 .l-collection {
     display: flex;
-}
-
-.l-collection.l-collection--cnt {
     justify-content: center;
 }
