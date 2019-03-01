@@ -1,4 +1,14 @@
 .logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo .logo-image {
     height: 1.5rem;
     margin-right: 1rem;
+}
+
+.logo .logo-name {
+    font-size: 1rem;
+    white-space: nowrap;
 }
