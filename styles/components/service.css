@@ -2,7 +2,17 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 8rem;
+    align-items: center;
+    text-align: center;
+    width: 5rem;
     height: 8rem;
     margin: 0 3rem;
+}
+
+.service .service-image--sm {
+    width: 3.5rem;
+}
+
+.service .service-image--lg {
+    width: 5rem;
 }
