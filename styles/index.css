@@ -3,3 +3,6 @@
 @import './components/header.css';
 @import './components/logo.css';
 @import './components/nav-list.css';
+
+@import './layout/cell.css';
+@import './layout/well.css';
