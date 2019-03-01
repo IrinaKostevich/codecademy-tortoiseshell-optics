@@ -5,5 +5,8 @@
 html {
     font-family: Helvetica, sans-serif;
     font-size: 18px;
+}
+
+body {
     line-height: 1.4rem;
 }
