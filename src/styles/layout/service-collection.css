@@ -1,0 +1,10 @@
+.l-service-collection {
+    margin: 0 3rem;
+}
+
+@media only screen and (max-width: 595px) {
+    .service {
+        margin-top: 0.77rem;
+        margin-bottom: 0.77rem;
+    }
+}

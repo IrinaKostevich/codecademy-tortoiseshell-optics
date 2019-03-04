@@ -1,18 +1,28 @@
 .service {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     text-align: center;
     width: 5rem;
     height: 8rem;
-    margin: 0 3rem;
 }
 
-.service .service-image--sm {
+.service .service-image {
+    margin-bottom: 1rem;
+}
+
+.service .service-image.service-image--sm {
     width: 3.5rem;
 }
 
-.service .service-image--lg {
+.service .service-image.service-image--lg {
     width: 5rem;
+}
+
+@media only screen and (max-width: 595px) {
+    .service {
+        height: auto;
+        font-size: 0.77rem;
+    }
 }
