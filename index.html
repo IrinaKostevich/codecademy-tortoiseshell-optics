@@ -4,6 +4,7 @@
 <head>
     <title>Tortoiseshell Optics</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/vendor/reset.css" type="text/css">
     <link rel="stylesheet" href="./styles/index.css" type="text/css">
 </head>
@@ -22,37 +23,42 @@
                         <li class="nav-list-item"><a href="#">Products</a></li>
                         <li class="nav-list-item"><a href="#">Contact</a></li>
                     </ul>
+                    <ul class="nav-list nav-list--mobile">
+                        <li class="nav-list-item"><a href="#">Menu</a></li>
+                    </ul>
                 </nav>
             </div>
-            <div class="banner-card l-cell">
-                <h1 class="banner-card-text">Don't just look, see.</h1>
+            <div class="banner-container l-cell">
+                <div class="banner-card">
+                    <h1 class="banner-card-text">Don't just look, see.</h1>
+                </div>
             </div>
         </div>
     </header>
     <main class="l-cell">
         <section class="l-collection l-well--lg">
-            <div class="service">
-                <img class="service-image--sm" src="./images/paper-icon.png" alt="">
-                <p class="thumbnail-text">Comprehensive Exams</p>
+            <div class="service l-service-collection">
+                <img class="service-image service-image--sm" src="./images/paper-icon.png" alt="">
+                <p class="service-text">Comprehensive Exams</p>
             </div>
-            <div class="service">
-                <img class="service-image--lg" src="./images/ruler-icon.png" alt="">
-                <p class="thumbnail-text">Custom Fittings</p>
+            <div class="service l-service-collection">
+                <img class="service-image service-image--lg" src="./images/ruler-icon.png" alt="">
+                <p class="service-text">Custom Fittings</p>
             </div>
-            <div class="service">
-                <img class="service-image--lg" src="./images/truck-icon.png" alt="">
-                <p class="thumbnail-text">Fast Delivery</p>
+            <div class="service l-service-collection">
+                <img class="service-image service-image--lg" src="./images/truck-icon.png" alt="">
+                <p class="service-text">Fast Delivery</p>
             </div>
         </section>
-        <section class="l-collection l-well--lg">
-            <div class="info-card">
+        <section class="l-collection">
+            <div class="info-card l-info-card-collection">
                 <h4 class="info-card-header">Philosophy</h4>
                 <p class="info-card-text">Over 75% of our brains are dedicated to one sense: vision. We believe everyone
                     desrves to see the
                     world, not matter what. That's why we offer eye exams, custom fittings, and quick delivery at a
                     low cost. It's your vision that makes ours.</p>
             </div>
-            <div class="info-card">
+            <div class="info-card l-info-card-collection">
                 <h4 class="info-card-header">Appointments</h4>
                 <p class="info-card-text">Schedule an appointment by calling us at (312) 654-0987. We are open Tuesday -
                     Saturday, 9AM -

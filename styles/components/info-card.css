@@ -1,6 +1,6 @@
 .info-card {
+    min-width: 300px;
     max-width: 35%;
-    margin-right: 5%;
 }
 
 .info-card .info-card-header {
@@ -12,4 +12,14 @@
     text-transform: uppercase;
     background-color: cadetblue;
     color: white;
+}
+
+.info-card .info-card-text {
+    font-size: 1rem;
+}
+
+@media only screen and (max-width: 480px) {
+    .info-card .info-card-text {
+        font-size: 0.77rem;
+    }
 }

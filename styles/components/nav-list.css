@@ -13,3 +13,17 @@
     color: inherit;
     text-decoration: none;
 }
+
+.nav-list.nav-list--mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 640px) {
+    .nav-list {
+        display: none;
+    }
+
+    .nav-list.nav-list--mobile {
+        display: inline;
+    }
+}
