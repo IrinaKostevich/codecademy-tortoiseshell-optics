@@ -1,9 +1,15 @@
 .l-service-collection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.l-service-collection > * {
     margin: 0 3rem;
 }
 
 @media only screen and (max-width: 595px) {
-    .service {
+    .l-service-collection > * {
         margin-top: 0.77rem;
         margin-bottom: 0.77rem;
     }
