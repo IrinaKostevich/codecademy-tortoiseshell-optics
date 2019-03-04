@@ -1,10 +1,16 @@
 .l-info-card-collection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.l-info-card-collection > * {
     margin-right: 5%;
     margin-bottom: 5rem;
 }
 
-@media only screen and (max-width: 480px) {
-    .l-info-card-collection {
+@media only screen and (max-width: 560px) {
+    .l-info-card-collection > * {
         margin-right: 0;
         margin-bottom: 4rem;
     }

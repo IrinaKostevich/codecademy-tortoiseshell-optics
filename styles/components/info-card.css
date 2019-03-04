@@ -1,6 +1,5 @@
 .info-card {
-    min-width: 300px;
-    max-width: 35%;
+    width: 35%;
 }
 
 .info-card .info-card-header {
@@ -18,8 +17,18 @@
     font-size: 1rem;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 560px) {
+    .info-card {
+        width: auto;
+    }
+
+    .info-card .info-card-header {
+        max-width: none;
+        text-align: center;
+    }
+
     .info-card .info-card-text {
+        padding: 0 1rem;
         font-size: 0.77rem;
     }
 }
